@@ -1,2 +1,8 @@
+// Document-wide styles
+@import 'variables';
 @import 'fonts';
 @import 'typography';
+@import 'document';
+
+// Component specific styles
+@import 'components/application-header';
