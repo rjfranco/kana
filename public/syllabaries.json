@@ -7,8 +7,7 @@
         "hiragana": "あ",
         "katakana": "ア",
         "roomaji": "a"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 2,
@@ -17,8 +16,7 @@
         "hiragana": "い",
         "katakana": "イ",
         "roomaji": "i"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 3,
@@ -27,8 +25,7 @@
         "hiragana": "う",
         "katakana": "ウ",
         "roomaji": "u"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 4,
@@ -37,8 +34,7 @@
         "hiragana": "え",
         "katakana": "エ",
         "roomaji": "e"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 5,
@@ -47,8 +43,7 @@
         "hiragana": "お",
         "katakana": "オ",
         "roomaji": "o"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 6,
@@ -57,8 +52,7 @@
         "hiragana": "か",
         "katakana": "カ",
         "roomaji": "ka"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 7,
@@ -67,8 +61,7 @@
         "hiragana": "き",
         "katakana": "キ",
         "roomaji": "ki"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 8,
@@ -77,8 +70,7 @@
         "hiragana": "く",
         "katakana": "ク",
         "roomaji": "ku"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 9,
@@ -87,8 +79,7 @@
         "hiragana": "け",
         "katakana": "ケ",
         "roomaji": "ke"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 10,
@@ -97,8 +88,7 @@
         "hiragana": "こ",
         "katakana": "コ",
         "roomaji": "ko"
-      },
-      "relationships": {}
+      }
     },
     {
       "id": 11,
@@ -107,58 +97,52 @@
         "hiragana": "さ",
         "katakana": "サ",
         "roomaji": "sa"
-      },
-      "relationships": {}
+      }
     },
     {
-      "id": 12,
+      "id": "12",
       "type": "character",
       "attributes": {
         "hiragana": "し",
         "katakana": "シ",
-        "romaaji": "shi"
-      },
-      "relationships": {}
+        "roomaji": "shi"
+      }
     },
     {
-      "id": 13,
+      "id": "13",
       "type": "character",
       "attributes": {
         "hiragana": "す",
         "katakana": "ス",
-        "romaaji": "su"
-      },
-      "relationships": {}
+        "roomaji": "su"
+      }
     },
     {
-      "id": 14,
+      "id": "14",
       "type": "character",
       "attributes": {
         "hiragana": "せ",
         "katakana": "セ",
         "roomaji": "se"
-      },
-      "relationships": {}
+      }
     },
     {
-      "id": 15,
+      "id": "15",
       "type": "character",
       "attributes": {
         "hiragana": "そ",
         "katakana": "ソ",
         "roomaji": "so"
-      },
-      "relationships": {}
+      }
     },
     {
-      "id": 16,
+      "id": "16",
       "type": "character",
       "attributes": {
         "hiragana": "た",
         "katakana": "タ",
-        "romaaji": "ta"
-      },
-      "relationships": {}
+        "roomaji": "ta"
+      }
     },
     {
       "id": 17,
@@ -166,9 +150,8 @@
       "attributes": {
         "hiragana": "ち",
         "katakana": "チ",
-        "romaaji": "chi"
-      },
-      "relationships": {}
+        "roomaji": "chi"
+      }
     },
     {
       "id": 18,
@@ -176,9 +159,8 @@
       "attributes": {
         "hiragana": "つ",
         "katakana": "ツ",
-        "romaaji": "tsu"
-      },
-      "relationships": {}
+        "roomaji": "tsu"
+      }
     },
     {
       "id": 19,
@@ -186,9 +168,8 @@
       "attributes": {
         "hiragana": "て",
         "katakana": "テ",
-        "romaaji": "te"
-      },
-      "relationships": {}
+        "roomaji": "te"
+      }
     },
     {
       "id": 20,
@@ -196,9 +177,8 @@
       "attributes": {
         "hiragana": "と",
         "katakana": "ト",
-        "romaaji": "to"
-      },
-      "relationships": {}
+        "roomaji": "to"
+      }
     }
   ]
 }
