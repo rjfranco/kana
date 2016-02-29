@@ -14,12 +14,14 @@
   }
 
   a {
-    display: block;
+    color: $link-blue;
+    display: inline-block;
     padding: 1rem;
     text-decoration: none;
 
-    &:hover {
-      // Place holder, need more links before I can style.
+    &:hover:not(.active) {
+      background: $link-blue;
+      color: $white;
     }
   }
 
