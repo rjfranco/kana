@@ -179,6 +179,141 @@
         "katakana": "ト",
         "roomaji": "to"
       }
+    },
+    {
+      "id": 21,
+      "type": "character",
+      "attributes": {
+        "hiragana": "な",
+        "katakana": "ナ",
+        "roomaji": "na"
+      }
+    },
+    {
+      "id": 22,
+      "type": "character",
+      "attributes": {
+        "hiragana": "に",
+        "katakana": "ニ",
+        "roomaji": "ni"
+      }
+    },
+    {
+      "id": 23,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ぬ",
+        "katakana": "ヌ",
+        "roomaji": "nu"
+      }
+    },
+    {
+      "id": 24,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ね",
+        "katakana": "ネ",
+        "roomaji": "ne"
+      }
+    },
+    {
+      "id": 25,
+      "type": "character",
+      "attributes": {
+        "hiragana": "の",
+        "katakana": "ノ",
+        "roomaji": "no"
+      }
+    },
+    {
+      "id": 26,
+      "type": "character",
+      "attributes": {
+        "hiragana": "は",
+        "katakana": "ハ",
+        "roomaji": "ha"
+      }
+    },
+    {
+      "id": 27,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ひ",
+        "katakana": "ヒ",
+        "roomaji": "hi"
+      }
+    },
+    {
+      "id": 28,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ふ",
+        "katakana": "フ",
+        "roomaji": "hu"
+      }
+    },
+    {
+      "id": 29,
+      "type": "character",
+      "attributes": {
+        "hiragana": "へ",
+        "katakana": "ヘ",
+        "roomaji": "he"
+      }
+    },
+    {
+      "id": 30,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ほ",
+        "katakana": "ホ",
+        "roomaji": "ho"
+      }
+    },
+    {
+      "id": 31,
+      "type": "character",
+      "attributes": {
+        "hiragana": "ま",
+        "katakana": "マ",
+        "roomaji": "ma"
+      }
+    },
+    {
+      "id": 32,
+      "type": "character",
+      "attributes": {
+        "hiragana": "み",
+        "katakana": "ミ",
+        "roomaji": "mi"
+      }
+    },
+    {
+      "id": 33,
+      "type": "character",
+      "attributes": {
+        "hiragana": "む",
+        "katakana": "ム",
+        "roomaji": "mu"
+      }
+    },
+    {
+      "id": 34,
+      "type": "character",
+      "attributes": {
+        "hiragana": "め",
+        "katakana": "メ",
+        "roomaji": "me"
+      }
+    },
+    {
+      "id": 35,
+      "type": "character",
+      "attributes": {
+        "hiragana": "も",
+        "katakana": "モ",
+        "roomaji": "mo"
+      }
     }
   ]
 }
