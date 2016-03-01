@@ -20,4 +20,26 @@
     text-align: center;
     width: 35vw;
   }
+
+  form {
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .answer-correct {
+    .user-input {
+      box-shadow: 0 0 1rem .1rem $character-board-input-shadow-correct;
+    }
+  }
+
+  .answer-error {
+    .user-input {
+      box-shadow: 0 0 1rem .1rem $character-board-input-shadow-error;
+    }
+  }
 }
