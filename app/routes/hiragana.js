@@ -2,12 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function() {
-    return fetch('/syllabaries.json')
+    return $.ajax('syllabaries.json')
     .then(function(data) {
-      return data.json();
-    })
-    .then(function(json) {
-      return this.store.push(json);
+      return this.store.push(JSON.parse(data));
     }.bind(this));
   }
 });

@@ -52,10 +52,10 @@
       "electron.js",
       "package.json"
     ],
-    "name": null,
+    "name": "Kana",
     "platform": null,
     "arch": null,
-    "version": null,
+    "version": "0.0.1",
     "app-bundle-id": null,
     "app-category-type": null,
     "app-version": null,
@@ -73,7 +73,7 @@
     "sign": null,
     "strict-ssl": null,
     "version-string": {
-      "CompanyName": null,
+      "CompanyName": "Kana",
       "LegalCopyright": null,
       "FileDescription": null,
       "OriginalFilename": null,
