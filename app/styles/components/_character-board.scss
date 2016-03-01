@@ -1,0 +1,22 @@
+.character-board {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+  .current-character {
+    color: $character-board-text;
+    font-size: 20vw;
+  }
+
+  .user-input {
+    border: 0;
+    box-shadow: 0 0 1rem .1rem $character-board-input-shadow;
+    color: $character-board-input;
+    font-size: 8vw;
+    padding: 1rem;
+    text-align: center;
+    width: 35vw;
+  }
+}
