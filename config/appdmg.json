@@ -1,0 +1,11 @@
+{
+  "title": "Kana",
+  "icon": "../icons/kana.icns",
+  "background": "../icons/kana-dmg.png",
+  "icon-size": 80,
+
+  "contents": [
+    { "x": 440, "y": 356, "type": "link", "path": "/Applications" },
+    { "x": 190, "y": 356, "type": "file", "path": "../electron-builds/Kana-darwin-x64/Kana.app" }
+  ]
+}
