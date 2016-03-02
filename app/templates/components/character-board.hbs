@@ -1,3 +1,7 @@
+{{#if answeredCorrectly}}
+  {{continue-dialogue}}
+{{/if}}
+
 <div class="current-character">{{current_character}}</div>
 <form {{action "checkInput" on="submit"}} class={{formStatus}}>
   {{input name=user_input value=user_input class="user-input"}}
