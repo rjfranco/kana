@@ -30,4 +30,19 @@
   tbody tr:nth-child(odd) td {
     background: $reference-table-background;
   }
+
+  &.hiragana,
+  &.katakana {
+    table {
+      font-size: 2rem;
+    }
+
+    th {
+      font-size: 1.3rem;
+
+      &:first-of-type {
+        width: 8rem;
+      }
+    }
+  }
 }

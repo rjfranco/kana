@@ -1,0 +1,19 @@
+<section class="reference katakana">
+  <h2>{{#link-to 'reference'}}Reference{{/link-to}} > Katakana</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Katakana</th>
+        <th>Roomaji</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each model as |character|}}
+        <tr>
+          <td>{{character.katakana}}</td>
+          <td>{{character.roomaji}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</section>

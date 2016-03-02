@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('vocab');
   this.route('reference', function() {
     this.route('vocab');
+    this.route('katakana');
   });
 });
 
