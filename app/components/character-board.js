@@ -29,7 +29,7 @@ export default Ember.Component.extend({
   }.property('has_checked', 'answer_correct'),
 
   answeredCorrectly: function () {
-    return !!this.get('formStatus');
+    return this.get('formStatus') === 'answer-correct';
   }.property('formStatus'),
 
   buttonText: function() {
