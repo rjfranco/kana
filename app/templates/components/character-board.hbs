@@ -1,5 +1,10 @@
 <div class="current-character">{{current_character}}</div>
 <form {{action "checkInput" on="submit"}} class={{formStatus}}>
   {{input name=user_input value=user_input class="user-input"}}
-  <button type="submit">Check</button>
+  <button type="submit">
+    <span class="status">{{buttonText}}</span>
+    <span class="line-1"></span>
+    <span class="line-2"></span>
+    <span class="line-3"></span>
+  </button>
 </form>

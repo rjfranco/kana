@@ -19,5 +19,22 @@ export default Ember.Component.extend({
         return 'answer-error';
       }
     }
-  }.property('has_checked', 'answer_correct')
+  }.property('has_checked', 'answer_correct'),
+
+  buttonText: function() {
+    let button_text;
+
+    switch (this.get('formStatus'))  {
+      case 'answer-correct':
+        button_text = 'Correct!';
+        break;
+      case 'answer-error':
+        button_text = 'Incorrect :(';
+        break;
+      default:
+        button_text = 'Check';
+    }
+
+    return button_text;
+  }.property('formStatus')
 });
