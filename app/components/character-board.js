@@ -38,6 +38,10 @@ export default Ember.Component.extend({
     return this.get('currentItem.roomaji');
   }.property('currentItem'),
 
+  definition: function() {
+    return this.get('currentItem.definition');
+  }.property('currentItem'),
+
   formStatus: function() {
     if(this.get('has_checked')) {
       if(this.get('answer_correct')) {

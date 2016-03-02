@@ -12,7 +12,6 @@
 
   &.vocab .current-item {
     font-size: 10vw;
-    margin-bottom: 5vw;
   }
 
   .user-input {
@@ -20,6 +19,7 @@
     box-shadow: 0 0 1rem .1rem $character-board-input-shadow;
     color: $character-board-input;
     font-size: 8vw;
+    margin-top: 5vw;
     outline: none;
     padding: 1rem;
     text-align: center;
@@ -32,6 +32,10 @@
 
   form {
     position: relative;
+  }
+
+  .definition {
+    margin: 0;
   }
 
   .submit-button {
@@ -93,7 +97,7 @@
   }
 
   &.vocab .submit-button {
-    top: -.25vw;
+    top: 4.45vw;
   }
 
   .answer-correct {
