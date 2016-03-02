@@ -8,10 +8,11 @@
   .current-character {
     color: $character-board-text;
     font-size: 20vw;
+  }
 
-    .vocab & {
-      font-size: 10vw;
-    }
+  &.vocab .current-character {
+    font-size: 10vw;
+    margin-bottom: 5vw;
   }
 
   .user-input {
@@ -23,6 +24,10 @@
     padding: 1rem;
     text-align: center;
     width: 35vw;
+  }
+
+  &.vocab .user-input {
+    font-size: 4vw;
   }
 
   form {
@@ -85,6 +90,10 @@
       transform: rotate3d(0, 0, 1, -45deg);
       width: 4vw;
     }
+  }
+
+  &.vocab .submit-button {
+    top: -.25vw;
   }
 
   .answer-correct {

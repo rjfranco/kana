@@ -1,7 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['character-board', 'hiragana'],
+  classNames: ['character-board'],
+  classNameBindings: ['sectionClass'],
   tagName: 'section',
 
   actions: {
