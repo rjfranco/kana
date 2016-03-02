@@ -23,23 +23,127 @@
 
   form {
     position: relative;
+  }
 
-    button {
+  .submit-button {
+    background: $white;
+    border: 0;
+    border-radius: 6.25vw;
+    box-shadow: 0 0 1rem .1rem $character-board-input-shadow;
+    cursor: pointer;
+    display: block;
+    height: 9vw;
+    position: absolute;
+    right: -13vw;
+    top: 1.75vw;
+    width: 9vw;
+
+    &:hover {
+      background: $character-board-submit-hover;
+    }
+
+    .status {
+      display: none;
+    }
+
+    // Hah!
+    %base-line {
+      background: $character-board-submit-check;
+      display: block;
+      height: 1vw;
+      opacity: 1;
       position: absolute;
-      right: 0;
-      top: 0;
+      transition: all .5s ease;
+    }
+
+    .line-1 {
+      @extend %base-line;
+
+      left: 1.5vw;
+      top: 4vw;
+      width: 5.5vw;
+    }
+
+    .line-2 {
+      @extend %base-line;
+
+      left: 3.7vw;
+      top: 2.95vw;
+      transform: rotate3d(0, 0, 1, 45deg);
+      width: 4vw;
+    }
+
+    .line-3 {
+      @extend %base-line;
+
+      left: 3.7vw;
+      top: 5.05vw;
+      transform: rotate3d(0, 0, 1, -45deg);
+      width: 4vw;
     }
   }
 
   .answer-correct {
-    .user-input {
+    .user-input,
+    .submit-button {
       box-shadow: 0 0 1rem .1rem $character-board-input-shadow-correct;
+    }
+
+    .submit-button {
+      background: $character-board-submit-correct;
+    }
+
+    %base-line {
+      background: $white;
+    }
+
+    .line-1 {
+      left: 1vw;
+      top: 5vw;
+      transform: rotate3d(0, 0, 1, 45deg);
+      width: 3.75vw;
+    }
+
+    .line-2 {
+      left: 3.2vw;
+      top: 4.1vw;
+      transform: rotate3d(0, 0, 1, -45deg);
+      width: 5vw;
+    }
+
+    .line-3 {
+      opacity: 0;
     }
   }
 
   .answer-error {
-    .user-input {
+    .user-input,
+    .submit-button {
       box-shadow: 0 0 1rem .1rem $character-board-input-shadow-error;
+    }
+
+    .submit-button {
+      background: $character-board-submit-error;
+    }
+
+    %base-line {
+      background: $white;
+    }
+
+    .line-1 {
+      transform: rotate3d(0, 0, 1, 45deg);
+      width: 6vw;
+    }
+
+    .line-2 {
+      left: 1.5vw;
+      top: 4vw;
+      transform: rotate3d(0, 0, 1, -45deg);
+      width: 6vw;
+    }
+
+    .line-3 {
+      opacity: 0;
     }
   }
 }
