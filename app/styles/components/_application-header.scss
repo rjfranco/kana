@@ -14,13 +14,13 @@
   }
 
   a {
-    color: $link-blue;
+    color: $link-color;
     display: inline-block;
     padding: 1rem;
     text-decoration: none;
 
     &:hover:not(.active) {
-      background: $link-blue;
+      background: $link-color;
       color: $white;
     }
   }
