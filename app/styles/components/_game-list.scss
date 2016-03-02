@@ -1,7 +1,40 @@
 .game-list {
-  align-items: center;
   display: flex;
   flex: 1;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
   margin: 3rem;
+
+  a {
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 2vw;
+    height: 2.4vw;
+    padding-top: 23vw;
+    text-align: center;
+    text-decoration: none;
+    width: 31vw;
+
+    &.hiragana {
+      background-image: url('../images/splash-hiragana.png');
+    }
+
+    &.katakana {
+      background-image: url('../images/splash-katakana.png');
+    }
+
+    &.vocab {
+      background-image: url('../images/splash-vocab.png');
+    }
+
+    &.reference {
+      background-image: url('../images/splash-reference.png');
+    }
+
+    &:hover {
+      color: mix($link-color, $black, 70%);
+    }
+  }
 }
