@@ -1,0 +1,26 @@
+.score-board {
+  border: .2rem solid $score-board-border;
+  border-radius: .25rem;
+  position: absolute;
+  right: 8rem;
+  top: 8rem;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 1.25rem;
+  }
+
+  .label {
+    display: inline-block;
+    width: 7rem;
+  }
+
+  .correct-answers {
+    color: $score-board-correct;
+  }
+
+  .wrong-answers {
+    color: $score-board-error;
+  }
+}

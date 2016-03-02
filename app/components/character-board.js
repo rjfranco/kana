@@ -15,7 +15,15 @@ export default Ember.Component.extend({
         this.set('user_input', '');
       } else {
         this.set('has_checked', true);
-        this.set('answer_correct', this.get('user_input').toLowerCase() === this.get('expectedInput'));
+
+        let answer_correct = this.get('user_input').toLowerCase() === this.get('expectedInput');
+        this.set('answer_correct', answer_correct);
+
+        if (answer_correct) {
+          this.incrementProperty('correct_answers');
+        } else {
+          this.incrementProperty('incorrect_answers');
+        }
       }
     }
   },
