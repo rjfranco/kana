@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('reference', function() {
     this.route('vocab');
     this.route('katakana');
+    this.route('hiragana');
   });
 });
 
