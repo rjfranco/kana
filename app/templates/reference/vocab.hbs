@@ -1,15 +1,21 @@
-<h2>Vocab</h2>
-<table>
-  <tr>
-    <th>Hiragana</th>
-    <th>Roomaji</th>
-    <th>English</th>
-  </tr>
-  {{#each model as |word|}}
-    <tr>
-      <td>{{word.hiragana}}</td>
-      <td>{{word.roomaji}}</td>
-      <td>{{word.definition}}</td>
-    </tr>
-  {{/each}}
-</table>
+<section class="reference vocab">
+  <h2>Vocab</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Hiragana</th>
+        <th>Roomaji</th>
+        <th>English</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each model as |word|}}
+        <tr>
+          <td>{{word.hiragana}}</td>
+          <td>{{word.roomaji}}</td>
+          <td>{{word.definition}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</section>

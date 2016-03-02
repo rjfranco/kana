@@ -1,0 +1,29 @@
+.reference {
+  flex: 1;
+  margin: 0 3rem;
+  overflow: auto;
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  th {
+    padding: .25rem .25rem .5rem;
+    text-align: left;
+  }
+
+  td {
+    padding: .25rem;
+  }
+
+  // scss-lint:disable SelectorDepth
+  tbody tr:nth-child(odd) td {
+    background: $reference-table-background;
+  }
+}
