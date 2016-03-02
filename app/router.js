@@ -9,6 +9,9 @@ Router.map(function() {
   this.route('hiragana');
   this.route('katakana');
   this.route('vocab');
+  this.route('reference', function() {
+    this.route('vocab');
+  });
 });
 
 export default Router;

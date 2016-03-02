@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import _ from 'lodash/lodash';
 
 export default Ember.Component.extend({
   classNames: ['character-board'],
@@ -14,10 +15,28 @@ export default Ember.Component.extend({
         this.set('user_input', '');
       } else {
         this.set('has_checked', true);
-        this.set('answer_correct', this.get('user_input').toLowerCase() === this.get('expected_input'));
+        this.set('answer_correct', this.get('user_input').toLowerCase() === this.get('expectedInput'));
       }
     }
   },
+
+  last_update: Date.now(),
+
+  currentItem: function() {
+    if (this.get('last_update')) {
+      let current_item = _.sample(this.get('section_list.[]').toArray());
+      return current_item;
+    }
+  }.property('last_update', 'section_list.[]'),
+
+  currentItemTest: function() {
+    let test = `currentItem.${this.get('display')}`;
+    return this.get(test);
+  }.property('currentItem'),
+
+  expectedInput: function() {
+    return this.get('currentItem.roomaji');
+  }.property('currentItem'),
 
   formStatus: function() {
     if(this.get('has_checked')) {

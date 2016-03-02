@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: center;
 
-  .current-character {
+  .current-item {
     color: $character-board-text;
     font-size: 20vw;
   }
 
-  &.vocab .current-character {
+  &.vocab .current-item {
     font-size: 10vw;
     margin-bottom: 5vw;
   }

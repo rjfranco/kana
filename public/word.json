@@ -185,7 +185,7 @@
       "type": "word",
       "attributes": {
         "hiragana": "しらなみ",
-        "roomaji": "Shiranami",
+        "roomaji": "shiranami",
         "definition": "Whitecaps"
       }
     },
@@ -229,7 +229,7 @@
       "id": 26,
       "type": "word",
       "attributes": {
-        "hiragana": "せいうし",
+        "hiragana": "せいうち",
         "roomaji": "seiuchi",
         "definition": "Walrus"
       }
@@ -383,7 +383,7 @@
       "type": "word",
       "attributes": {
         "hiragana": "あんしょう",
-        "roomaji": "anshou",
+        "roomaji": "anshyou",
         "definition": "Reef"
       }
     },

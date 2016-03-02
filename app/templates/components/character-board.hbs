@@ -2,7 +2,7 @@
   {{continue-dialogue continue="checkInput"}}
 {{/if}}
 
-<div class="current-character">{{current_character}}</div>
+<div class="current-item">{{currentItemTest}}</div>
 <form {{action "checkInput" on="submit"}} class={{formStatus}}>
   {{input name=user_input value=user_input class="user-input"}}
   <button type="submit" class="submit-button">
