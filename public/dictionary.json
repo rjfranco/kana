@@ -1,0 +1,454 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "word",
+      "attributes": {
+        "hiragana": "うみ",
+        "roomaji": "umi",
+        "definition": "Sea"
+      }
+    },
+    {
+      "id": 2,
+      "type": "word",
+      "attributes": {
+        "hiragana": "なみ",
+        "roomaji": "nami",
+        "definition": "Waves"
+      }
+    },
+    {
+      "id": 3,
+      "type": "word",
+      "attributes": {
+        "hiragana": "さかな",
+        "roomaji": "sakana",
+        "definition": "fish"
+      }
+    },
+    {
+      "id": 4,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かに",
+        "roomaji": "kani",
+        "definition": "Crab"
+      }
+    },
+    {
+      "id": 5,
+      "type": "word",
+      "attributes": {
+        "hiragana": "すな",
+        "roomaji": "suna",
+        "definition": "Sand"
+      }
+    },
+    {
+      "id": 6,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かい",
+        "roomaji": "kai",
+        "definition": "shell"
+      }
+    },
+    {
+      "id": 7,
+      "type": "word",
+      "attributes": {
+        "hiragana": "すいわかり",
+        "roomaji": "suikawari",
+        "definition": "Watermelon splitting"
+      }
+    },
+    {
+      "id": 8,
+      "type": "word",
+      "attributes": {
+        "hiragana": "ひとで",
+        "roomaji": "hitode",
+        "definition": "Starfish"
+      }
+    },
+    {
+      "id": 9,
+      "type": "word",
+      "attributes": {
+        "hiragana": "さめ",
+        "roomaji": "same",
+        "definition": "Shark"
+      }
+    },
+    {
+      "id": 10,
+      "type": "word",
+      "attributes": {
+        "hiragana": "ふね",
+        "roomaji": "hune",
+        "definition": "Boat"
+      }
+    },
+    {
+      "id": 11,
+      "type": "word",
+      "attributes": {
+        "hiragana": "みずぎ",
+        "roomaji": "mizugi",
+        "definition": "Swimsuit"
+      }
+    },
+    {
+      "id": 12,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かめ",
+        "roomaji": "kame",
+        "definition": "Turtle"
+      }
+    },
+    {
+      "id": 13,
+      "type": "word",
+      "attributes": {
+        "hiragana": "いるか",
+        "roomaji": "iruka",
+        "definition": "Dolphin"
+      }
+    },
+    {
+      "id": 14,
+      "type": "word",
+      "attributes": {
+        "hiragana": "くらげ",
+        "roomaji": "kurage",
+        "definition": "Jellyfish"
+      }
+    },
+    {
+      "id": 15,
+      "type": "word",
+      "attributes": {
+        "hiragana": "くじら",
+        "roomaji": "kujira",
+        "definition": "Whale"
+      }
+    },
+    {
+      "id": 16,
+      "type": "word",
+      "attributes": {
+        "hiragana": "たこ",
+        "roomaji": "tako",
+        "definition": "Octopus"
+      }
+    },
+    {
+      "id": 17,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かいそう",
+        "roomaji": "kaisou",
+        "definition": "Seaweed"
+      }
+    },
+    {
+      "id": 18,
+      "type": "word",
+      "attributes": {
+        "hiragana": "さんご",
+        "roomaji": "sango",
+        "definition": "Coral"
+      }
+    },
+    {
+      "id": 19,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かわ",
+        "roomaji": "kawa",
+        "definition": "River"
+      }
+    },
+    {
+      "id": 20,
+      "type": "word",
+      "attributes": {
+        "hiragana": "わん",
+        "roomaji": "wan",
+        "definition": "Bay"
+      }
+    },
+    {
+      "id": 21,
+      "type": "word",
+      "attributes": {
+        "hiragana": "しらなみ",
+        "roomaji": "Shiranami",
+        "definition": "Whitecaps"
+      }
+    },
+    {
+      "id": 22,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かいよう",
+        "roomaji": "kaiyou",
+        "definition": "Ocean"
+      }
+    },
+    {
+      "id": 23,
+      "type": "word",
+      "attributes": {
+        "hiragana": "うなぎ",
+        "roomaji": "unagi",
+        "definition": "Eel"
+      }
+    },
+    {
+      "id": 24,
+      "type": "word",
+      "attributes": {
+        "hiragana": "はんそう",
+        "roomaji": "hansou",
+        "definition": "Sailing"
+      }
+    },
+    {
+      "id": 25,
+      "type": "word",
+      "attributes": {
+        "hiragana": "たつのおとしご",
+        "roomaji": "tatsunootoshigo",
+        "definition": "Seahorse"
+      }
+    },
+    {
+      "id": 26,
+      "type": "word",
+      "attributes": {
+        "hiragana": "せいうし",
+        "roomaji": "seiuchi",
+        "definition": "Walrus"
+      }
+    },
+    {
+      "id": 27,
+      "type": "word",
+      "attributes": {
+        "hiragana": "みずみ",
+        "roomaji": "mizuumi",
+        "definition": "Lake"
+      }
+    },
+    {
+      "id": 28,
+      "type": "word",
+      "attributes": {
+        "hiragana": "つのざめ",
+        "roomaji": "tsunozame",
+        "definition": "Dogfish"
+      }
+    },
+    {
+      "id": 29,
+      "type": "word",
+      "attributes": {
+        "hiragana": "つり",
+        "roomaji": "tsuri",
+        "definition": "Fishing"
+      }
+    },
+    {
+      "id": 30,
+      "type": "word",
+      "attributes": {
+        "hiragana": "しま",
+        "roomaji": "shima",
+        "definition": "Island"
+      }
+    },
+    {
+      "id": 31,
+      "type": "word",
+      "attributes": {
+        "hiragana": "うみうし",
+        "roomaji": "umiushi",
+        "definition": "Sea slug"
+      }
+    },
+    {
+      "id": 32,
+      "type": "word",
+      "attributes": {
+        "hiragana": "えび",
+        "roomaji": "ebi",
+        "definition": "Prawn"
+      }
+    },
+    {
+      "id": 33,
+      "type": "word",
+      "attributes": {
+        "hiragana": "まぐろ",
+        "roomaji": "maguro",
+        "definition": "Tuna"
+      }
+    },
+    {
+      "id": 34,
+      "type": "word",
+      "attributes": {
+        "hiragana": "ひょうざん",
+        "roomaji": "hyouzan",
+        "definition": "Iceberg"
+      }
+    },
+    {
+      "id": 35,
+      "type": "word",
+      "attributes": {
+        "hiragana": "いか",
+        "roomaji": "ika",
+        "definition": "Squid"
+      }
+    },
+    {
+      "id": 36,
+      "type": "word",
+      "attributes": {
+        "hiragana": "おうむがい",
+        "roomaji": "oumugai",
+        "definition": "Nautilus"
+      }
+    },
+    {
+      "id": 37,
+      "type": "word",
+      "attributes": {
+        "hiragana": "しんじゅ",
+        "roomaji": "shinju",
+        "definition": "Pearl"
+      }
+    },
+    {
+      "id": 38,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かいがん",
+        "roomaji": "kaigan",
+        "definition": "Coast"
+      }
+    },
+    {
+      "id": 39,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かき",
+        "roomaji": "kaki",
+        "definition": "Oyster"
+      }
+    },
+    {
+      "id": 40,
+      "type": "word",
+      "attributes": {
+        "hiragana": "かもめ",
+        "roomaji": "kamome",
+        "definition": "Seagull"
+      }
+    },
+    {
+      "id": 41,
+      "type": "word",
+      "attributes": {
+        "hiragana": "おんせん",
+        "roomaji": "onsen",
+        "definition": "Hot spring"
+      }
+    },
+    {
+      "id": 42,
+      "type": "word",
+      "attributes": {
+        "hiragana": "めかじき",
+        "roomaji": "mekajiki",
+        "definition": "Swordfish"
+      }
+    },
+    {
+      "id": 43,
+      "type": "word",
+      "attributes": {
+        "hiragana": "あんしょう",
+        "roomaji": "anshou",
+        "definition": "Reef"
+      }
+    },
+    {
+      "id": 44,
+      "type": "word",
+      "attributes": {
+        "hiragana": "じゅごん",
+        "roomaji": "jugon",
+        "definition": "Dugong"
+      }
+    },
+    {
+      "id": 45,
+      "type": "word",
+      "attributes": {
+        "hiragana": "あゆ",
+        "roomaji": "ayu",
+        "definition": "Sweetfish"
+      }
+    },
+    {
+      "id": 46,
+      "type": "word",
+      "attributes": {
+        "hiragana": "ふな",
+        "roomaji": "huna",
+        "definition": "Crucian carp"
+      }
+    },
+    {
+      "id": 47,
+      "type": "word",
+      "attributes": {
+        "hiragana": "こい",
+        "roomaji": "koi",
+        "definition": "Koi"
+      }
+    },
+    {
+      "id": 48,
+      "type": "word",
+      "attributes": {
+        "hiragana": "ひとかげ",
+        "roomaji": "hitokage",
+        "definition": "Salamander"
+      }
+    },
+    {
+      "id": 49,
+      "type": "word",
+      "attributes": {
+        "hiragana": "やどかり",
+        "roomaji": "yadokari",
+        "definition": "Hermit crab"
+      }
+    },
+    {
+      "id": 50,
+      "type": "word",
+      "attributes": {
+        "hiragana": "えい",
+        "roomaji": "ei",
+        "definition": "Ray"
+      }
+    }
+  ]
+}
