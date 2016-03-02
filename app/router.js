@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('hiragana');
+  this.route('katakana');
 });
 
 export default Router;
