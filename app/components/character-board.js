@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import _ from 'lodash/lodash';
 
 export default Ember.Component.extend({
   classNames: ['character-board', 'hiragana'],
@@ -22,8 +21,8 @@ export default Ember.Component.extend({
     }
   }.property('has_checked', 'answer_correct'),
 
-  positiveReinforcement: function() {
-    return _.sample(['Nice!', 'Awesome!', 'Good job!', 'Brilliant!']);
+  answeredCorrectly: function () {
+    return !!this.get('formStatus');
   }.property('formStatus'),
 
   buttonText: function() {
