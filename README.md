@@ -1,7 +1,9 @@
 # Kana
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Kana is meant to help people learn the common Japanese syllabaries, Hiragana and Katakana. But I'd love to make it much more.
+Eventually I'd love to see guides on things like kanji and radicals integrated into the app, and a much more comprehensive and organized vocabulary list.
+What you see here is a first pass and I have some great ideas on how it could progress, but I'm totally open to what it should actually do.
+If you're just looking to download a binary, please look at [kana.ninja](http://kana.ninja).
 
 ## Prerequisites
 
@@ -50,4 +52,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
